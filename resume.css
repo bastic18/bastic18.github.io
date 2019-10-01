@@ -1,0 +1,138 @@
+.grid {
+    /* border: 2px blue solid; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 150px 200px 200px 200px;
+    grid-gap: 10px 15px;
+    
+   
+  }
+  .grid1 {
+    
+
+    display: grid;
+    grid-template-columns: 25% 55%;
+    grid-template-rows: 85px 85px ;
+    grid-gap: 10px 15px;
+   
+  }
+
+  .underline {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+  .box {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+   
+  }
+  .a{
+  
+    grid-area : 1 / 1/ 1 / span 3;
+    height: 150px;
+    width: 100%;
+    background-color: greenyellow;
+    margin-right: 8em;
+
+     display: flex;
+      
+    justify-content: center; 
+  
+  }
+  .datalist{
+    text-align: left;
+    
+      }
+
+  .b{
+    grid-area : 2/ 2/ 7 / span 2;
+    padding: 30px;
+    margin-right: 8em;
+  }
+
+  .b{
+    grid-area : 2/ 2/ span 5 / span 2;
+   
+  }
+
+  .c{
+    grid-area : 2/ 1/ span 5 / span 1;
+    padding: 2em;
+    background-color: lightcyan;
+    margin-left: 8em;
+    margin-top: 2.2em;
+    
+  }
+  .d{
+    text-align: center;
+    border-color: white;
+    align-items: flex-end;
+    
+  }
+  .e{
+    text-align: left;
+    border-color: white;
+    
+    
+  }
+
+.f{
+  text-align: left;
+  border-color: white;
+  
+}
+
+
+
+  .name{
+      border-block-color: black;
+      text-align: center;
+      border-style: double;
+      width: 500px;
+      margin: 10px;
+      padding: 0%;
+      height:120px;
+       align-items: stretch;
+      /* margin-left: 30%; */
+      
+  }
+
+
+  h1 {
+    padding:10px;
+    margin: 5px;
+    
+    }
+h2 {
+        padding:0;
+        margin: 0;
+        
+  }
+
+  img {
+          border-radius: 50%;
+          
+    }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+i {
+  margin-right: 10px;
+}
+
+.imgcenter{
+text-align: center;
+
+}
